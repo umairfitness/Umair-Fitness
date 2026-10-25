@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umair Fitness - Gym & Fitness Center</title>
+    <!-- Google Fonts & FontAwesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <div class="logo"><i class="fa-solid fa-dumbbell"></i> Umair Fitness</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#branches">Branches</a></li>
+            <li><a href="#plans">Plans</a></li>
+            <li><a href="#shop">Supplements</a></li>
+            <li><a href="#map">Location</a></li>
+            <li><a href="#register">Join Now</a></li>
+        </ul>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Transform Your Body</h1>
+        <p>Welcome to Umair Fitness Gym. Professional training, modern equipment, and customized diet plans in Harappa.</p>
+        <a href="#register" class="btn">Join Gym Now</a>
+    </section>
+
+    <!-- Branches Section -->
+    <h2 class="section-title" id="branches">Our Branches</h2>
+    <div class="branches-container">
+        <div class="branch-card">
+            <h3><i class="fa-solid fa-location-dot"></i> Branch #1 (Harappa Station)</h3>
+            <p><strong>Location:</strong> Harappa Station, I.I. Bypass</p>
+            <p><strong>Name:</strong> Umair Fitness Gym</p>
+            <p><i class="fa-solid fa-phone"></i> +92 307 2589257</p>
+            <p><i class="fa-solid fa-clock"></i> Open Daily (Morning & Evening)</p>
+        </div>
+        <div class="branch-card">
+            <h3><i class="fa-solid fa-location-dot"></i> Branch #2 (Harappa City)</h3>
+            <p><strong>Location:</strong> Harappa City, Council Morr</p>
+            <p><strong>Name:</strong> Umair Fitness Gym</p>
+            <p><i class="fa-solid fa-phone"></i> +92 307 2589257</p>
+            <p><i class="fa-solid fa-clock"></i> Active / Open Now</p>
+        </div>
+    </div>
+
+    <!-- Plans Section -->
+    <h2 class="section-title" id="plans">Membership & Training Plans</h2>
+    <div class="plans-container">
+        <div class="plan-card">
+            <h3>Basic Membership</h3>
+            <div class="price">Rs. 1,000 <span>/ month</span></div>
+            <ul>
+                <li><i class="fa-solid fa-check"></i> Gym Access</li>
+                <li><i class="fa-solid fa-check"></i> General Training</li>
+                <li><i class="fa-solid fa-check"></i> Standard Equipment</li>
+            </ul>
+            <a href="#register" class="btn">Select Plan</a>
+        </div>
+
+        <div class="plan-card">
+            <h3>Standard Plan</h3>
+            <div class="price">Rs. 1,500 <span>/ month</span></div>
+            <ul>
+                <li><i class="fa-solid fa-check"></i> Gym Access</li>
+                <li><i class="fa-solid fa-check"></i> Advanced Training</li>
+                <li><i class="fa-solid fa-check"></i> Cardio & Workout Advice</li>
+            </ul>
+            <a href="#register" class="btn">Select Plan</a>
+        </div>
+
+        <div class="plan-card">
+            <h3>Diet Plan</h3>
+            <div class="price">Rs. 5,000</div>
+            <ul>
+                <li><i class="fa-solid fa-check"></i> Custom Nutrition Plan</li>
+                <li><i class="fa-solid fa-check"></i> Weight Gain / Loss Chart</li>
+                <li><i class="fa-solid fa-check"></i> Weekly Progress Review</li>
+            </ul>
+            <a href="#register" class="btn">Select Plan</a>
+        </div>
+
+        <div class="plan-card highlight-card">
+            <h3>Personal Trainer</h3>
+            <div class="price">Rs. 7,000 <span>/ month</span></div>
+            <ul>
+                <li><i class="fa-solid fa-check"></i> Personal Assistant / Trainer</li>
+                <li><i class="fa-solid fa-check"></i> Complete Gym Access</li>
+                <li><i class="fa-solid fa-check"></i> Customized Diet Plan Included</li>
+            </ul>
+            <a href="#register" class="btn">Select Plan</a>
+        </div>
+    </div>
+
+    <!-- Shop / Supplements Section -->
+    <h2 class="section-title" id="shop">Proteins & Supplements</h2>
+    <div class="shop-container">
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1593095948071-474c5cc2989d?auto=format&fit=crop&w=500&q=80" alt="Whey Protein">
+            <h4>Whey Protein Powder</h4>
+            <div class="product-price">Ask Price on WhatsApp</div>
+            <button class="btn" onclick="orderProduct('Whey Protein Powder')">Order on WhatsApp</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1579722821273-0f6c7d44362f?auto=format&fit=crop&w=500&q=80" alt="Creatine">
+            <h4>Creatine Monohydrate</h4>
+            <div class="product-price">Ask Price on WhatsApp</div>
+            <button class="btn" onclick="orderProduct('Creatine Monohydrate')">Order on WhatsApp</button>
+        </div>
+    </div>
+
+    <!-- Google Map Section -->
+    <h2 class="section-title" id="map">Our Location</h2>
+    <div class="map-section">
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55181.76458509378!2d72.8447814!3d30.6276856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922c9a96e5fa3d1%3A0x6b1b5e0c526d708f!2sHarappa%2C%2520Sahiwal%2C%2520Punjab%2C%2520Pakistan!5e0!3m2!1sen!2s!4v1650000000000!5m2!1sen!2s" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <!-- WhatsApp Registration Form Section -->
+    <div class="registration-section" id="register">
+        <h2>Gym Admission Form</h2>
+        <form id="gymForm">
+            <div class="form-group">
+                <label>Full Name (پورا نام):</label>
+                <input type="text" id="userName" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label>Phone Number (موبائل نمبر):</label>
+                <input type="tel" id="userPhone" placeholder="03001234567" required>
+            </div>
+            <div class="form-group">
+                <label>Select Branch (برانچ منتخب کریں):</label>
+                <select id="userBranch" required>
+                    <option value="Harappa Station (I.I. Bypass)">Harappa Station (I.I. Bypass)</option>
+                    <option value="Harappa City (Council Morr)">Harappa City (Council Morr)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Select Plan (پیکج منتخب کریں):</label>
+                <select id="userPlan" required>
+                    <option value="Basic Membership (Rs. 1,000)">Basic Membership - Rs. 1,000 / month</option>
+                    <option value="Standard Plan (Rs. 1,500)">Standard Plan - Rs. 1,500 / month</option>
+                    <option value="Diet Plan Only (Rs. 5,000)">Diet Plan Only - Rs. 5,000</option>
+                    <option value="Personal Trainer + Gym (Rs. 7,000)">Personal Trainer + Gym - Rs. 7,000 / month</option>
+                </select>
+            </div>
+            <button type="submit" class="btn full-width">Submit & Send to WhatsApp</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Umair Fitness Gym. All Rights Reserved.</p>
+        <p>Phone: <a href="tel:+923072589257">+92 307 2589257</a> | Email: <a href="mailto:umairfitnessharppa@gmail.com">umairfitnessharppa@gmail.com</a></p>
+        <p>Branch #1: Harappa Station, I.I. Bypass | Branch #2: Harappa City, Council Morr</p>
+    </footer>
+
+    <!-- JavaScript File Link -->
+    <script src="script.js"></script>
+</body>
+</html>
